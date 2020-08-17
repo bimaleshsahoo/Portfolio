@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Portfolio | Bimalesh</title>
+    <meta name="description" content="User Experience Designer | Specialization delivering end-to-end solutions">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/load.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/about/favicon.png">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+    <!-- header-start -->
+    <div id="MenuBar">
+        <nav class="navbar navbar-expand-lg fixed-top" id="topBar">
+            <div class="container">
+                <!-- Brand -->
+                <a class="navbar-brand" href=""><img style="height: 49px" alt="Bimalesh Sahoo" src="img/about/logo.png"></a>
+                <button id="menubutton" onclick="togglemenu()" class="navbar-toggler mouseHover" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span><img id="menuimage" alt="Menu" src="img/about/menu.png"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a id="nav1" onclick="enablescroll()" class="nav-link mouseHover invi-link hashremove" href="#HomeDiv">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav2" onclick="enablescroll()" class="nav-link mouseHover invi-link hashremove" href="#about-section">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav3" onclick="enablescroll()" class="nav-link mouseHover invi-link hashremove" href="#portfolio-section">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="nav4" onclick="enablescroll()" class="nav-link mouseHover invi-link hashremove" href="#contacts-section">Contact</a>
+                        </li>
+                        <li class="nav-item socialmenu">
+                            <a target="_blank" href="https://www.facebook.com/bimalesh.sahoo"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+                            <a target="_blank" href="https://www.instagram.com/bimalesh_sahoo"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
+                            <a target="_blank" href="https://www.linkedin.com/in/bimaleshsahoo"><i class="fa fa-linkedin" aria-hidden="true"></i></a> 
+                            <a target="_blank" href="https://www.behance.net/bimaleshsahoo"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>     
+    </div>
+    <!-- Home -->
+    <div id="HomeDiv">
+        <div class="container-fluid inheritHeight">
+            <div class="row inheritHeight">
+                <div class="col-8 offset-4 col-sm-7 offset-sm-5 col-md-7 offset-md-4 col-lg-7 offset-lg-4">
+                    <div class="introDiv">
+                        <p>Hey, I’m Bimalesh</p>
+                        <h1>User Experience Designer</h1>
+                        <span></span>
+                        <br>
+                        <button class="btn hashremove" id="introBtn1" onclick="window.location.href='#contacts-section';">Contact me</button>
+                        <button class="btn" id="introBtn2"><a class="cvLink" target="_blank" href="img/cv.pdf">Download CV</a></button>
+                    </div>
+                </div>
+                <div class="col-sm-0 col-md-1 col-lg-1 text-center">
+                    <ul class="list-group list-group-flush socialIcons">
+                      <li class="list-group-item noneBG"><a target="_blank" href="https://www.facebook.com/bimalesh.sahoo"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                      <li class="list-group-item noneBG"><a target="_blank" href="https://www.instagram.com/bimalesh_sahoo"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                      <li class="list-group-item noneBG"><a target="_blank" href="https://www.linkedin.com/in/bimaleshsahoo"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                      <li class="list-group-item noneBG"><a target="_blank" href="https://www.behance.net/bimaleshsahoo"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Home -->
+
+    <!-- About -->
+    <div class="aboutDIV topspace">
+        <div class="navigationDivAbout" id="about-section"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-6 aboutColumn">
+                    <h1>ABOUT ME</h1>
+                    <div class="Display" style="margin-top: 10px">
+                        <h2>04</h2>
+                        <div>
+                            <span>Years of<br></span><span>Experience</span>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <p style="text-align: justify;">A Developer converted to a Creative Designer with around 4 years of professional experience working in the field of User Experience Design. Original and clever with the ability to work with design and development teams. Better understanding of requirements, business goals, branding document guidelines and converting prepared solutions into innovative wireframes by creating work flows and interactive designs.</p>
+                    <div class="DisplayAlt" style="margin-top: 64px">
+                        <h2>04</h2>
+                        <div>
+                            <span>Years of<br></span><span>Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-5 offset-xl-1 experienceColumn">
+                    <h1>EXPERIENCE</h1>
+                    <div class="timeline">
+                        <div class="containerr right">
+                            <div class="content">
+                                <div class="durationDiv">
+                                    <div class="halfDiv">
+                                        <span>From</span>
+                                        <p>Oct '19</p>
+                                    </div>
+                                    <div class="halfDiv">
+                                        <span>Till</span>
+                                        <p>Present</p>
+                                    </div>
+                                </div>
+                                <div class="companyDiv">
+                                    <span>Dassault Systèmes</span>
+                                    <p>User Experience Designer</p>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="containerr right">
+                            <div class="content">
+                                <div class="durationDiv">
+                                    <div class="halfDiv">
+                                        <span>From</span>
+                                        <p>Jul '16</p>
+                                    </div>
+                                    <div class="halfDiv">
+                                        <span>Till</span>
+                                        <p>Oct '19</p>
+                                    </div>
+                                </div>
+                                <div class="companyDiv">
+                                    <span>Wipro Limited</span>
+                                    <p>User Experience Designer</p>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="containerr right">
+                            <div class="content">
+                                <div class="durationDiv">
+                                    <div class="halfDiv">
+                                        <span>From</span>
+                                        <p>Jan '16</p>
+                                    </div>
+                                    <div class="halfDiv">
+                                        <span>Till</span>
+                                        <p>Mar '16</p>
+                                    </div>
+                                </div>
+                                <div class="companyDiv">
+                                    <span>Wipro Limited</span>
+                                    <p>Intern</p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio -->
+    <div class="aboutDiv bmargin portfolioContainerBG" >
+        <div class="navigationDiv" id="portfolio-section"></div>
+        <div class="container">
+            <h4 class="spaceCara head4">Portfolio</h4>
+        </div>
+            <div class="container-fluid">
+                <div id="myNav" class="overlay">
+                    <div class="row">
+                        <div id="portDiv" class="col-12" style="overflow: auto;">
+                                <p id="navHead">User Interface Design</p>
+                                <img id="navPicture" alt="Portfolio Details" class="overlayimg" src="img/about/Website.png">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <button id="navNxt" class="nxtbtn nxtt"><img alt="next" class="nextimage" src="img/about/nextarrow.png"></button>
+                                <span class="nxtt nvnxt">Next<br>Project</span>
+                                <button id="navPrv" class="prvbtn prvv"><img align="previous" class="nextimage" src="img/about/previous1.png"></button>
+                                <span class="prvv pvnxt">Previous<br>Project</span>
+                        </div>   
+                    </div>
+                </div> 
+            <div class="row">
+                <div class="col-1 padZero"><button class="portprev btn"><img alt="previous" class="arrowShrink" src="img/about/previous.png"></button></div>
+                <div class="col-10 padZero">
+                    <div class="your-class">
+                      <div>
+                        <div class="outer outerFirst port0" onclick="openNav(0)">
+                            <div class="detailsTab"><button type="button" class="btn detailBtn">See Details</button></div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="outer outerSecond port1" onclick="openNav(1)">
+                            <div class="detailsTab"><button type="button" class="btn detailBtn">See Details</button></div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="outer outerThird port2" onclick="openNav(2)">
+                            <div class="detailsTab"><button type="button" class="btn detailBtn">See Details</button></div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="outer outerFourth port3" onclick="openNav(3)">
+                            <div class="detailsTab"><button type="button" class="btn detailBtn">See Details</button></div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="outer port4" onclick="openNav(4)">
+                            <div class="detailsTab"><button type="button" class="btn detailBtn">See Details</button></div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="outer port5" onclick="openNav(5)">
+                            <div class="detailsTab"><button type="button" class="btn detailBtn">See Details</button></div>
+                          </div>
+                      </div>
+                      <div>
+                        <div class="outer port6" onclick="openNav(6)">
+                            <div class="detailsTab"><button type="button" class="btn detailBtn">See Details</button></div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-1 padZero"><button id="portnxtbtn" class="portnxt btn"><img alt="next" class="arrowShrink" src="img/about/next.png"></button></div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- / portfolio -->
+
+    <!-- Contact -->
+    <div class="contactDIV container">
+        <div class="navigationDivContact" id="contacts-section"></div>
+            <h1>Get in touch</h1>
+            <div class="row conpic">
+                <div class="col-lg-7">
+                    <div class="contactPara">
+                        <img src="img/about/contactpic.png">
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1 margin35 addrow">
+                    <div class="margin15"><i style="font-size: 20px;" class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp; <span>Pune, India</span></div>
+                    <div class="margin15"><i style="font-size: 18px;" class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp; <span>+91 8759093590</span></div>
+                    <div class="margin15"><a href="mailto:sahoo.bimalesh@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp; <span>sahoo.bimalesh@gmail.com</span></a></div>
+                </div>
+            </div>
+    </div>
+
+    <!-- footer start -->
+    <footer class="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>
+                        Copyright © 2020 All rights reserved.
+                    </p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <div>
+                            <a target="_blank" href="https://www.facebook.com/bimalesh.sahoo"><i class="fa fa-facebook blackHover"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/bimalesh_sahoo"><i class="fa fa-instagram blackHover"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/bimaleshsahoo"><i class="fa fa-linkedin blackHover"></i></a>
+                            <a target="_blank" href="https://www.behance.net/bimaleshsahoo"><i class="fa fa-behance blackHover"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ footer end  -->
+
+    <!-- JS here -->
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/navBar.js"></script>
+    <script src="slick/slick.js"></script>
+    <script src="js/slickConfig.js"></script>
+    <script src="js/removeHash.js"></script>
+    <script src="js/changeSlide.js"></script>
+</body>
+</html>
