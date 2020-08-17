@@ -15,7 +15,6 @@
           slidesToScroll: 1,
           infinite: true,
           draggable:false,
-          swipe:false,
         }
       },
       {
@@ -25,7 +24,6 @@
           slidesToScroll: 1,
           infinite:true,
           draggable:false,
-          swipe:false,
         }
       },
       {
@@ -35,7 +33,6 @@
           slidesToScroll: 1,
           infinite:true,
           draggable:false,
-          swipe:false,
         }
       }
     ]
