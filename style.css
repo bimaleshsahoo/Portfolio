@@ -265,12 +265,12 @@
         }
         .introDiv span::after{
             content: "Pursuing M.Sc. in User Experience Design at \A " 
-                     "mobile and web applications." ;
+                     "Technische Hochschule Ingolstadt." ;
             white-space: pre; 
         }
         @media screen and (max-width: 614px) and (min-width: 575px) {
             .introDiv span::after{
-            content: "Specialized in delivering end-to-end design solutions \A " 
+            content: "Pursuing M.Sc. in User Experience Design at \A " 
                      "Technische Hochschule Ingolstadt." ;
             white-space: pre; 
         }
