@@ -18,7 +18,7 @@
           var navpic=num ;
           if(navpic==0){
             $('#navPicture').attr("src","img/about/port0Detail.png") ;
-            $('#navHead').html("Company e-Bill") ;
+            $('#navHead').html("iCPR - CPR Training App") ;
             $('.nxtt').css("display","block") ;
             $('.prvv').css("display","block") ;
           }
