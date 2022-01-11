@@ -18,43 +18,43 @@
           var navpic=num ;
           if(navpic==0){
             $('#navPicture').attr("src","img/about/port0Detail.png") ;
-            $('#navHead').html("iCPR - CPR Training App") ;
+            $('#navHead').html("Privy - that enables you to access your realtime data.") ;
             $('.nxtt').css("display","block") ;
             $('.prvv').css("display","block") ;
           }
           if(navpic==1){
             $('#navPicture').attr("src","img/about/port1Detail.png") ;
-            $('#navHead').html("Time Management System") ;
+            $('#navHead').html("iCPR - CPR Training App") ;
             $('.nxtt').css("display","block") ;
             $('.prvv').css("display","block") ;
           }
           if(navpic==2){
             $('#navPicture').attr("src","img/about/port2Detail.png") ;
-            $('#navHead').html("Commission of Robots") ;
+            $('#navHead').html("Company e-Bill") ;
             $('.nxtt').css("display","block") ;
             $('.prvv').css("display","block") ;
           }
           if(navpic==3){
             $('#navPicture').attr("src","img/about/port3Detail.png") ;
-            $('#navHead').html("Mo Bus") ;
+            $('#navHead').html("Commission of Robots") ;
             $('.nxtt').css("display","block") ;
             $('.prvv').css("display","block") ;
           }
           if(navpic==4){
             $('#navPicture').attr("src","img/about/port4Detail.png") ;
-            $('#navHead').html("My Buddy") ;
+            $('#navHead').html("Mo Bus") ;
             $('.nxtt').css("display","block") ;
             $('.prvv').css("display","block") ;
           }
           if(navpic==5){
             $('#navPicture').attr("src","img/about/port5Detail.png") ;
-            $('#navHead').html("Health Wallet") ;
+            $('#navHead').html("Time Management") ;
             $('.nxtt').css("display","block") ;
             $('.prvv').css("display","block") ;
           }
           if(navpic==6){
             $('#navPicture').attr("src","img/about/port6Detail.png") ;
-            $('#navHead').html("Service Record Application") ;
+            $('#navHead').html("Health Wallet") ;
             $('.nxtt').css("display","block") ;
             $('.prvv').css("display","block") ;
           }
