@@ -54,41 +54,23 @@
           }
           if(navpic==6){
             $('#navPicture').attr("src","img/about/port6Detail.png") ;
-            $('#navHead').html("Commission of Robots") ;
-            $('.nxtt').css("display","block") ;
-            $('.prvv').css("display","block") ;
-          }
-          if(navpic==7){
-            $('#navPicture').attr("src","img/about/port7Detail.png") ;
             $('#navHead').html("Mo Bus") ;
-            $('.nxtt').css("display","block") ;
-            $('.prvv').css("display","block") ;
-          }
-          if(navpic==8){
-            $('#navPicture').attr("src","img/about/port8Detail.png") ;
-            $('#navHead').html("Time Management") ;
-            $('.nxtt').css("display","block") ;
-            $('.prvv').css("display","block") ;
-          }
-          if(navpic==9){
-            $('#navPicture').attr("src","img/about/port9Detail.png") ;
-            $('#navHead').html("Company e-Bill") ;
             $('.nxtt').css("display","block") ;
             $('.prvv').css("display","block") ;
           }
         }
 
         $('#navNxt').click(function() {
-            navGlobal=(navGlobal+1)%10 ;
+            navGlobal=(navGlobal+1)%7 ;
             navDecide(navGlobal) ;
             $('#myNav').animate({
                 scrollTop: 0
             }, 0);
         });
         $('#navPrv').click(function() {
-            navGlobal=(navGlobal-1)%10 ;
+            navGlobal=(navGlobal-1)%7 ;
             if (navGlobal<0) {
-              navGlobal=navGlobal+10 ;
+              navGlobal=navGlobal+7 ;
             }
             navDecide(navGlobal) ;
             $('#myNav').animate({
