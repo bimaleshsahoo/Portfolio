@@ -24,53 +24,71 @@
           }
           if(navpic==1){
             $('#navPicture').attr("src","img/about/port1Detail.png") ;
-            $('#navHead').html("iCPR - CPR Training App") ;
+            $('#navHead').html("Atom - Know your element") ;
             $('.nxtt').css("display","block") ;
             $('.prvv').css("display","block") ;
           }
           if(navpic==2){
             $('#navPicture').attr("src","img/about/port2Detail.png") ;
-            $('#navHead').html("Company e-Bill") ;
+            $('#navHead').html("Vibrano - A futuristic Glass Harp Concept") ;
             $('.nxtt').css("display","block") ;
             $('.prvv').css("display","block") ;
           }
           if(navpic==3){
             $('#navPicture').attr("src","img/about/port3Detail.png") ;
-            $('#navHead').html("Commission of Robots") ;
+            $('#navHead').html("iCPR - CPR Training App") ;
             $('.nxtt').css("display","block") ;
             $('.prvv').css("display","block") ;
           }
           if(navpic==4){
             $('#navPicture').attr("src","img/about/port4Detail.png") ;
-            $('#navHead').html("Mo Bus") ;
+            $('#navHead').html("Google Nest Smart Home") ;
             $('.nxtt').css("display","block") ;
             $('.prvv').css("display","block") ;
           }
           if(navpic==5){
             $('#navPicture').attr("src","img/about/port5Detail.png") ;
-            $('#navHead').html("Time Management") ;
+            $('#navHead').html("Health Wallet") ;
             $('.nxtt').css("display","block") ;
             $('.prvv').css("display","block") ;
           }
           if(navpic==6){
             $('#navPicture').attr("src","img/about/port6Detail.png") ;
-            $('#navHead').html("Health Wallet") ;
+            $('#navHead').html("Commission of Robots") ;
+            $('.nxtt').css("display","block") ;
+            $('.prvv').css("display","block") ;
+          }
+          if(navpic==7){
+            $('#navPicture').attr("src","img/about/port7Detail.png") ;
+            $('#navHead').html("Mo Bus") ;
+            $('.nxtt').css("display","block") ;
+            $('.prvv').css("display","block") ;
+          }
+          if(navpic==8){
+            $('#navPicture').attr("src","img/about/port8Detail.png") ;
+            $('#navHead').html("Time Management") ;
+            $('.nxtt').css("display","block") ;
+            $('.prvv').css("display","block") ;
+          }
+          if(navpic==9){
+            $('#navPicture').attr("src","img/about/port9Detail.png") ;
+            $('#navHead').html("Company e-Bill") ;
             $('.nxtt').css("display","block") ;
             $('.prvv').css("display","block") ;
           }
         }
 
         $('#navNxt').click(function() {
-            navGlobal=(navGlobal+1)%7 ;
+            navGlobal=(navGlobal+1)%10 ;
             navDecide(navGlobal) ;
             $('#myNav').animate({
                 scrollTop: 0
             }, 0);
         });
         $('#navPrv').click(function() {
-            navGlobal=(navGlobal-1)%7 ;
+            navGlobal=(navGlobal-1)%10 ;
             if (navGlobal<0) {
-              navGlobal=navGlobal+7 ;
+              navGlobal=navGlobal+10 ;
             }
             navDecide(navGlobal) ;
             $('#myNav').animate({
