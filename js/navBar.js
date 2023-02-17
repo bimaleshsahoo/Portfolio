@@ -18,19 +18,19 @@
           var navpic=num ;
           if(navpic==0){
             $('#navPicture').attr("src","img/about/port0Detail.png") ;
-            $('#navHead').html("Privy - that enables you to access your realtime data.") ;
+            $('#navHead').html("Atom - Know your element") ;
             $('.nxtt').css("display","block") ;
             $('.prvv').css("display","block") ;
           }
           if(navpic==1){
             $('#navPicture').attr("src","img/about/port1Detail.png") ;
-            $('#navHead').html("Atom - Know your element") ;
+            $('#navHead').html("Vibrano - A futuristic Glass Harp Concept") ;
             $('.nxtt').css("display","block") ;
             $('.prvv').css("display","block") ;
           }
           if(navpic==2){
             $('#navPicture').attr("src","img/about/port2Detail.png") ;
-            $('#navHead').html("Vibrano - A futuristic Glass Harp Concept") ;
+            $('#navHead').html("Privy - that enables you to access your realtime data.") ;
             $('.nxtt').css("display","block") ;
             $('.prvv').css("display","block") ;
           }
