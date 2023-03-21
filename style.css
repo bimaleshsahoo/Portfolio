@@ -264,14 +264,14 @@
             font: 18px avenirBook;
         }
         .introDiv span::after{
-            content: "Pursuing M.Sc. in User Experience Design at \A " 
-                     "Technische Hochschule Ingolstadt." ;
+            content: "Creating user-centric UX design for \A " 
+                     "intuitive and delightful experiences." ;
             white-space: pre; 
         }
         @media screen and (max-width: 614px) and (min-width: 575px) {
             .introDiv span::after{
-            content: "Pursuing M.Sc. in User Experience Design at \A " 
-                     "Technische Hochschule Ingolstadt." ;
+            content: "Creating user-centric UX design for \A " 
+                     "intuitive and delightful experiences." ;
             white-space: pre; 
         }
         }
