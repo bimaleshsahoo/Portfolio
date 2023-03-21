@@ -264,14 +264,14 @@
             font: 18px avenirBook;
         }
         .introDiv span::after{
-            content: "Creating user-centric UX design for \A " 
-                     "intuitive and delightful experiences." ;
+            content: "Creating user-centric designs for \A " 
+                     "intuitive and delightful user experiences." ;
             white-space: pre; 
         }
         @media screen and (max-width: 614px) and (min-width: 575px) {
             .introDiv span::after{
-            content: "Creating user-centric UX design for \A " 
-                     "intuitive and delightful experiences." ;
+            content: "Creating user-centric designs for \A " 
+                     "intuitive and delightful user experiences." ;
             white-space: pre; 
         }
         }
