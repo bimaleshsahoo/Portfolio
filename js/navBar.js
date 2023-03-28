@@ -13,36 +13,36 @@ var toggle=0 ;
         document.getElementById("myNav").style.display = "none";
         $("body").css("overflow-y","auto");
       }
-      
+
       function navDecide(num) {
         var navpic=num ;
         if(navpic==0){
           $('#navPicture').attr("src","img/about/port0Detail.png") ;
-          $('#navHead').html("Atom - Know your element") ;
+          $('#navHead').html("Privy - that enables you to access your realtime data") ;
           $('.nxtt').css("display","block") ;
           $('.prvv').css("display","block") ;
         }
         if(navpic==1){
           $('#navPicture').attr("src","img/about/port1Detail.png") ;
-          $('#navHead').html("Vibrano - A futuristic Glass Harp Concept") ;
+          $('#navHead').html("iCPR - CPR Training App") ;
           $('.nxtt').css("display","block") ;
           $('.prvv').css("display","block") ;
         }
         if(navpic==2){
           $('#navPicture').attr("src","img/about/port2Detail.png") ;
-          $('#navHead').html("Privy - that enables you to access your realtime data") ;
+          $('#navHead').html("Atom - Know your element") ;
           $('.nxtt').css("display","block") ;
           $('.prvv').css("display","block") ;
         }
         if(navpic==3){
           $('#navPicture').attr("src","img/about/port3Detail.png") ;
-          $('#navHead').html("iCPR - CPR Training App") ;
+          $('#navHead').html("Commission of Robots") ;
           $('.nxtt').css("display","block") ;
           $('.prvv').css("display","block") ;
         }
         if(navpic==4){
           $('#navPicture').attr("src","img/about/port4Detail.png") ;
-          $('#navHead').html("Google Nest Smart Home") ;
+          $('#navHead').html("Company e-Bill | Mobile Application Design") ;
           $('.nxtt').css("display","block") ;
           $('.prvv').css("display","block") ;
         }
